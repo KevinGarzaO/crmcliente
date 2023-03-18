@@ -37,8 +37,8 @@ const NuevaCuenta = () => {
             password: Yup.string().required('El password no puede ir vacio').min(6, 'El password debe de ser minimo 6 caracteres')
         }),
         onSubmit: async valores => {
-            // console.log('enviando');
-            // console.log(valores);
+            
+          
 
             const { nombre, apellido, email, password } = valores;
 
